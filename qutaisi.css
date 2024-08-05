@@ -1,0 +1,82 @@
+* {
+    /* ფიფქი ნიშნავს ყველას ანუ რას ვგულისხმობ რაც საიტზე წერია ყველას გაუკეთებს *ში ჩაწერილ ბრძანებას Marjin არის ტექსტების შორის დაშორება pading არის   */
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  #blar {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./newport.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .conteiner {
+    /*Background-color ამ შემთხვევაში გვაქ ბლურისთვის გაკეთბული rgba არის ფერის მისამართი ანუ ბკურის ფერის მისამართი backdrop-filter blur(9px) აკეთებს  ბლურს ოღონდ 9px სიღიავით უფრო დიდი რაოდენობის px რომ gavakeTo ufro muqi blur იქნება */
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(86,86,86,0.3);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .info {
+    /* top ზევით აწევა, right 0 ნიშნავს რომ მარჯვნივ არ უნდა გაწიოს poaition არის პოზიცია და absolute აკეთებს ინლაინად color ტექსს უცვლის ფერს width სიდიდეს */
+    width: 550px;
+    color: #fff;
+    position: relative;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .info h1 {
+    /* font-sizeი ადიდებს ტექსტს ან ფოტოს  letter-spacingი ადიდებს დაშორებას ასოებს შორის*/
+    font-size: 60px;
+    letter-spacing: 10px;
+  }
+  
+  .info p {
+    /* marginი ტექსტებს შორის აკეთებს დაშორებას line-heightი ამ შემთხვევაში აკეთებს ღილაკსა და ტექსტს შორის დაშორებას */
+    color: #f0eef1;
+    font-size: 11px;
+    margin: 20px 0;
+    line-height: 18px;
+  
+  }
+  button {
+    width: 90px;
+    font-weight: 700;
+    height: 40px;
+    border: none;
+    transition: 0.4s;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: rgba(86, 86, 86, 0.3);
+    backdrop-filter: blur(9px);
+  }
+  
+  button:hover {
+    /* hover როცა მივიტანთ მაუსის ფორმა შეიცვლება*/
+    cursor: pointer;
+  }
+
+  .input1{
+    height: 30px;
+    width: 230px;
+    border-radius: 8px;
+    background-color: #E8F0FE;
+}
+
+.input2{
+    height: 30px;
+    width: 230px;
+    border-radius: 8px;
+    background-color: #E8F0FE;
+}
+  

@@ -1,0 +1,43 @@
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.texth1{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.input1{
+    height: 30px;
+    width: 230px;
+    border-radius: 8px;
+    background-color: #E8F0FE;
+}
+
+.input2{
+    height: 30px;
+    width: 230px;
+    border-radius: 8px;
+    background-color: #E8F0FE;
+}
+
+.fp{
+    color: hsl(224, 96%, 37%);
+    font-size: 12px;
+    display: flex;
+    justify-content: right;
+}
+
+
+.button1{
+    width: 230px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: #2962FF;
+    background-color: #2962FF;
+}

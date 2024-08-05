@@ -1,0 +1,8 @@
+body {
+    background: linear-gradient(black, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
+
